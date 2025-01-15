@@ -12,9 +12,9 @@ class AudioRecorderApp:
         self.master = master
         master.title("Audio Recorder")
         master.geometry("400x300")
-        master.configure(bg="#e0f7fa")  # Softer background color
+        master.configure(bg="#e0f7fa")  # background color
 
-        # Custom font
+        #custom font
         self.custom_font = font.Font(family="Helvetica", size=12)
 
         # Title Label
